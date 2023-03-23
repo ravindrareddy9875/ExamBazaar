@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import MenuBar1 from './MenuBar1';
+import MenuBar from './MenuBar';
 
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
@@ -19,7 +19,7 @@ import { MdKeyboardArrowRight } from 'react-icons/md'
 
 
 
-export default function MenuBar() {
+export default function MainPage() {
 
 
     const [isSaved, setisSaved] = useState(false);
@@ -139,7 +139,7 @@ export default function MenuBar() {
             {/* Calling MenuBar component for  Web Screen */}
 
                 <div className='w-1/4'>
-                    <MenuBar1 />
+                    <MenuBar/>
                 </div>
 {/* ------------------------------------------------------------------------------------------------------------------------------- */}
 
