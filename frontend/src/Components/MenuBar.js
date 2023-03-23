@@ -7,7 +7,7 @@ import {FiLink} from 'react-icons/fi'
 import {MdKeyboardArrowRight} from 'react-icons/md'
 import { BiArrowBack } from 'react-icons/bi';
 
-const MenuBar1 = () => {
+const MenuBar = () => {
   return (
     <div>
           <div className='border-0 border-r-2 h-screen  border-gray-200 vsm:hidden sm:hidden sm1:flex flex-col mt-10'>
